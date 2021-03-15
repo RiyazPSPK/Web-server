@@ -5,6 +5,7 @@ const geo=require('./utils/geo')
 const hbs=require('hbs')
 const forecast = require('./utils/forecast')
 const app=express()
+const port=process.env.PORT || 3000
 app.set('view engine','hbs')
 const publicdir=path.join(__dirname,'../public')
 const view=path.join(__dirname,'../templates/views')
@@ -49,4 +50,4 @@ app.get('/products',(req,res)=>{
 })
 app.get('*',(req,res)=>{res.render('404',{errormessage:'hehe go back to other link'})})
 
-app.listen(3000,()=>{console.log('port 3000 on')})
+app.listen(port,()=>{console.log('port 3000 on'+port)})
