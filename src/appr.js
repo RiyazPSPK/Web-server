@@ -1,0 +1,10 @@
+const express=require('express')
+const path=require('path')
+const app=express()
+const dir=path.join(__dirname,'../public')
+app.use(express.static(dir))
+app.set('view engine','hbs')
+app.get('',(req,res)=>{
+       res.render('home')
+})
+app.listen(950,()=>{console.log('port 950 has been turned on')})
