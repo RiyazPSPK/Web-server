@@ -1,8 +1,9 @@
-.center {
+
    
-  }
+  
   body, html {
-    height: 100%;
+    height: 102%;
+    background-color:grey;
 }
 
 /* The hero image */
@@ -102,4 +103,82 @@
   margin-left:auto;
   margin-right:auto;
   border: darkblue;
+}
+form{
+  flex: auto;
+  padding: 50px;
+  shape-margin: 10px;
+  }
+  #button{
+      position: absolute;
+      background-color:darkgreen;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 4px 2px;
+      cursor: pointer;
+    
+  }
+  #location{
+    background-color:silver;
+    padding: 5px 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  #title{
+    font-family:cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: oblique;
+    color: slateblue;
+    background-color:mintcream;
+    border-style: dotted;
+    border-color:maroon;
+    border-radius: 20px;
+  }
+  #title2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:navy;
+}
+p{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: black;
+  font-style: italic;
+  color:BLACK;
+}
+a:link, a:visited {
+  background-color:darkblue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:black;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#name{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  font-size: 10px;
+  text-align:center;
 }

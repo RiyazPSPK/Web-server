@@ -21,7 +21,7 @@ app.set('view engine','hbs')
 app.get('/about',(req,res)=>{
   res.render('about')
 })
-app.get('/home',(req,res)=>{res.render('home')})
+//app.get('/home',(req,res)=>{res.render('home')})
 
 app.get('/about',(req,res)=>{res.send('About our application')})
 app.get('/weather',(req,res)=>{
